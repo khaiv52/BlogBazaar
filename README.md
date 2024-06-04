@@ -1,13 +1,11 @@
 # BlogBazaar
-This is an individual web Flask project focused on blog management, taking ideas from Facebook or other similar platforms.
+## This is an individual web Flask project focused on blog management, taking ideas from Facebook or other similar platforms.
 
 ## Some steps to setup the environment and run the project.
 ### Step 1: Delete the old virtual environment (note that this will remove the entire env directory) <br>
 rm -rf env <br>
-<br>
 ### Step 2: Create a new virtual environment <br>
 python -m venv env <br>
-<br>
 ### Step 3: Activate the virtual environment <br>
 .\env\Scripts\activate  # On Windows <br>
 + or <br>
