@@ -14,20 +14,20 @@ This is an individual web Flask project focused on blog management, taking ideas
 ### Step 4:  Reinstall the packages: <br>
 ``` pip install -r requirements.txt ```
 ### Step 5: Configuring environment variables (detailed information in config.py file)
-$env:MAIL_SERVER="smtp.gmail.com" <br>
-$env:MAIL_PASSWORD="pedo pzsk owup ocqa" <br>
-$env:MAIL_PORT="587" <br>
-$env:FLASKY_ADMIN="temiro4914@jahsec.com" <br>
-$env:FLASKY_MAIL_SENDER="minhkhai8252@gmail.com" <br>
-$env:MAIL_USERNAME="minhkhai8252@gmail.com" <br>
-$env:SECRET_KEY="hard to guess string" <br>
-$env:FLASK_APP="flasky.py" <br>
-$env:FLASK_DEBUG="1" <br>
-$env:FLASK_CONFIG="development" <br>
-$env:FLASKY_POSTS_PER_PAGE=10 <br>
-$env:FLASKY_FOLLOWERS_PER_PAGE=10 <br>
-$env:FLASKY_COMMENTS_PER_PAGE=10 <br>
-### Step 6: Creating fake posts and users (in env environment) <br>
+``` $env:MAIL_SERVER="smtp.gmail.com" ```
+``` $env:MAIL_PASSWORD="pedo pzsk owup ocqa" ```
+$env:MAIL_PORT="587"
+$env:FLASKY_ADMIN="temiro4914@jahsec.com"
+$env:FLASKY_MAIL_SENDER="minhkhai8252@gmail.com"
+$env:MAIL_USERNAME="minhkhai8252@gmail.com"
+$env:SECRET_KEY="hard to guess string"
+$env:FLASK_APP="flasky.py"
+$env:FLASK_DEBUG="1"
+$env:FLASK_CONFIG="development"
+$env:FLASKY_POSTS_PER_PAGE=10
+$env:FLASKY_FOLLOWERS_PER_PAGE=10
+$env:FLASKY_COMMENTS_PER_PAGE=10 ```
+### Step 6: Creating fake posts and users (in env environment)
 flask shell <br>
 from app import fake <br>
 fake.users(100) <br>
