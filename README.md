@@ -28,7 +28,7 @@ $env:FLASKY_FOLLOWERS_PER_PAGE=10
 $env:FLASKY_COMMENTS_PER_PAGE=10
 ```
 
-### Step 5: Create database
+### Step 6: Create database
 - Copy and paste the following code to create and set roles and permissions for user, moderator, and admin.
 ``` 
 from hello import Role, User
@@ -80,11 +80,11 @@ r.has_permission(Permission.ADMIN)
 r.reset_permissions()
 r.has_permission(Permission.FOLLOW)
 ```
-### Step 6: Creating fake posts and users (in env environment)
+### Step 7: Creating fake posts and users (in env environment)
 ``` flask shell
 from app import fake
 fake.users(100)
 fake.posts(100) 
 ```
-### Step 7: Run the application
+### Step 8: Run the application
 `flask run`
