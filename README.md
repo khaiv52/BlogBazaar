@@ -15,12 +15,10 @@ This is an individual web Flask project focused on blog management, taking ideas
 `pip install -r requirements.txt `
 ### Step 5: Configuring environment variables (detailed information in config.py file)
 ```
-$env:MAIL_SERVER="smtp.gmail.com"
-$env:MAIL_PASSWORD="pedo pzsk owup ocqa"
-$env:MAIL_PORT="587" <br>
-$env:FLASKY_ADMIN="temiro4914@jahsec.com"
-$env:FLASKY_MAIL_SENDER="minhkhai8252@gmail.com"
-$env:MAIL_USERNAME="minhkhai8252@gmail.com"
+$env:MAIL_USERNAME="minhkhai8252@gmail.com"  # Your email that has permission to access Gmail services to send emails
+$env:MAIL_PASSWORD="pedo pzsk owup ocqa" # Your app-specific email password obtained from 2-step verification in the account management section
+$env:FLASKY_ADMIN="temiro4914@jahsec.com" # Mail receiver
+$env:FLASKY_MAIL_SENDER="minhkhai8252@gmail.com" # Mail sender
 $env:SECRET_KEY="hard to guess string"
 $env:FLASK_APP="flasky.py"
 $env:FLASK_DEBUG="1"
