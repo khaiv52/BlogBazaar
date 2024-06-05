@@ -4,14 +4,14 @@
 ## Some steps to setup the environment and run the project.
 ### Step 1: Delete the old virtual environment (note that this will remove the entire env directory) <br>
 ``` -rf env ```
-### Step 2: Create a new virtual environment <br>
-python -m venv env <br>
-### Step 3: Activate the virtual environment <br>
-.\env\Scripts\activate  # On Windows <br>
-+ or <br>
-source env/bin/activate  # On macOS/Linux <br>
+### Step 2: Create a new virtual environment
+``` python -m venv env ```
+### Step 3: Activate the virtual environment
+``` .\env\Scripts\activate ```  # On Windows 
+### or <br>
+``` source env/bin/activate ``` # On macOS/Linux
 ### Step 4:  Reinstall the packages: <br>
-pip install -r requirements.txt <br>
+``` pip install -r requirements.txt ```
 ### Step 5: Configuring environment variables (detailed information in config.py file)
 $env:MAIL_SERVER="smtp.gmail.com" <br>
 $env:MAIL_PASSWORD="pedo pzsk owup ocqa" <br>
