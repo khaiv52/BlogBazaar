@@ -3,7 +3,7 @@
 
 ## Some steps to setup the environment and run the project.
 ### Step 1: Delete the old virtual environment (note that this will remove the entire env directory) <br>
-rm -rf env <br>
+``` -rf env ```
 ### Step 2: Create a new virtual environment <br>
 python -m venv env <br>
 ### Step 3: Activate the virtual environment <br>
